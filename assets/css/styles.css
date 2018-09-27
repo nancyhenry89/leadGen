@@ -14,6 +14,8 @@ h1{color:#fff;text-align:center;width: 100%;margin:auto;margin-top: 62px;font-si
     height: 100%;
     background: #f4f4f4;
     text-align: center;
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
 }
 
 .item>div {
@@ -24,11 +26,22 @@ h1{color:#fff;text-align:center;width: 100%;margin:auto;margin-top: 62px;font-si
 .tc{text-align:center;font-size:13px;padding-right:5px}
 .ticket{text-align:center;width: 224px;margin-top:13px;float: left;padding-left: 36px;margin-bottom:10px;margin-top: 44px;}
 .content>.container{padding:0;padding-top: 28px;margin-top: -117px;max-width: 900px;}
-.item{width: 100%;margin:0 auto;padding: 0;/* max-width:680px; */height:264px;background: #e4e5e5;margin-bottom:12px;border-radius: 9px;}
-h3.title{margin-top:12px;font-size:19px;padding-right:20px;line-height:23px;margin-bottom:29px}
-.details{padding-top: 36px;}
+.item{width: 100%;margin:0 auto;padding: 0;/* max-width:680px; */height: 270px;background: #e4e5e5;margin-bottom: 19px;border-radius: 9px;}
+h3.title{margin-top: 10px;font-size: 16px;padding-right:20px;line-height:23px;margin-bottom: 3px;text-transform: uppercase;color: #282727;}
+
+.sub-title {
+    font-size: 9px;
+    text-transform: uppercase;
+    margin-top: 7px;
+    color: #bababa;
+}
+
+.foot {
+    font-size: 10px;
+}
+.details{padding-top: 36px;margin-left: -6px;}
 h3.title b{font-size:18px;font-family:'Open Sans Condensed',sans-serif;letter-spacing:1px;margin-right:-4px}
-.details p{font-size:13px;line-height:19px}
+.details p{font-size: 11px;line-height: 18px;margin-top: 18px;padding-right: 20px;margin-bottom: 5px;}
 button.btn.primary-btn{background: #44b301;width: 157px;border-radius: 9px;margin-top: 119px;height: 39px;color:#fff;font-size: 15px;/* text-transform:uppercase; */font-family:'Open Sans',sans-serif;font-weight: normal;/* text-shadow:1px 1px 10px #2b2b2b; *//* box-shadow:0 2px 3px #d9bcc0; */}
 .slogan p{margin-bottom: 8px;}
 .content>.container:last-of-type{padding-bottom:39px}
