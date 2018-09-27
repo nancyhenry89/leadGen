@@ -1,22 +1,34 @@
 :root{--textcolor:#000;--color1:#cd2e53;--main-font:'PT Sans',sans-serif}
-body{font-family:var(--main-font);color:var(--textColor)}
+body{font-family:var(--main-font);color: #5d5d5d;}
 img{max-width:100%}
 .container-fluid{padding:0}
 header{background:url(../imgs/header.png);background-size:cover;height: 195px;background-position:center;}
 h1{font-family:'Oswald',sans-serif;color:#fff;text-align:center;width: 100%;margin:auto;margin-top: 62px;font-size:38px;line-height:46px;/* text-shadow:2px 2px 21px #2b2b2b; */letter-spacing:1px;}
-.review{color:#85c1ec;font-size:10px;margin-top:2px}
+.review{color: #f7cb00;font-size:10px;margin-top:2px;}
 .review span{letter-spacing:1px}
-.content.bg{background:url(../imgs/bg.png)}
+.content.bg{
+    background: #070e16;
+}
+.install {
+    height: 100%;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+.item>div {
+    height: 100%;
+    padding: 0;
+}
 .slogan{color: #fff;font-size:18px;text-align:center;font-family:'Roboto',sans-serif;/* padding:10px 188px; *//* border-bottom:3px solid #8a3220; */margin-top: 6px;padding-bottom:45px;letter-spacing:.8px;margin-bottom:36px;}
 .tc{text-align:center;font-size:13px;padding-right:5px}
 .ticket{text-align:center;width:238px;margin-top:13px;float:right;padding-right:13px;margin-bottom:10px}
-.content>.container{background:#faf5f3;padding:0;padding-top: 28px;}
-.item{border:1px solid #ddd9d8;width:90%;margin:0 auto;padding:10px;/* max-width:680px; */height:264px;background:#f6f2f0;margin-bottom:12px;}
+.content>.container{padding:0;padding-top: 28px;}
+.item{width:90%;margin:0 auto;padding: 0;/* max-width:680px; */height:264px;background: #e4e5e5;margin-bottom:12px;border-radius: 9px;}
 h3.title{margin-top:12px;font-size:19px;padding-right:20px;line-height:23px;margin-bottom:29px}
 .details{margin-left:-10px}
 h3.title b{font-size:18px;font-family:'Open Sans Condensed',sans-serif;letter-spacing:1px;margin-right:-4px}
 .details p{font-size:13px;line-height:19px}
-button.btn.primary-btn{background:var(--color1);width:214px;border-radius:3px;margin-top:7px;height:47px;color:#fff;font-size:19px;text-transform:uppercase;font-family:'Open Sans',sans-serif;font-weight:700;text-shadow:1px 1px 10px #2b2b2b;box-shadow:0 2px 3px #d9bcc0}
+button.btn.primary-btn{background: #44b301;width: 164px;border-radius: 9px;margin-top:7px;height:47px;color:#fff;font-size:19px;/* text-transform:uppercase; */font-family:'Open Sans',sans-serif;font-weight:700;/* text-shadow:1px 1px 10px #2b2b2b; *//* box-shadow:0 2px 3px #d9bcc0; */}
 .slogan p{margin-bottom:0}
 .content>.container:last-of-type{padding-bottom:39px}
 @media screen and (max-width:1024px) {
