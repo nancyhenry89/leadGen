@@ -57,7 +57,7 @@ header{height:250px}
 .install{padding:20px;background: #d6d6d6;border-top-right-radius: 0;border-bottom-left-radius: 9px;}
 .content>.container{padding:0 15px;padding-top:16px}
 h1{font-size:41px;line-height:37px;text-shadow:none;letter-spacing:2px;margin-top:44px}
-h3.title{margin-top:20px;padding:0;font-size:23px;padding-right:11px;line-height:29px;margin-bottom:15px}
+h3.title{margin-top:20px;padding:0;font-size:23px;padding-right:11px;line-height:29px;margin-bottom: 2px;}
 h3.title b{font-size:21px;font-weight:900;margin-right:2px}
 button.btn.primary-btn{margin-top:8px;height:58px;width: 406px;font-size:23px;}
 .tc{font-size:15px;padding-right:10px}
@@ -69,10 +69,40 @@ h1{float:right;margin-right:220px;width:100%}
 }
 @media screen and (max-width:600px) {
 header{height:248px}
-h1{float:left;margin-right:0}
+.item>div:nth-of-type(2){padding-right:10px}
+.details p{padding-right:0;margin-top: 10px;font-size: 14px;}
+.ticket{padding-left: 10px;}
+h1{float:left;margin-right:0;font-size: 25px;letter-spacing: 0;margin-top: 10px;margin-bottom: 20px;}
+button.btn.primary-btn{
+    width: 90%;
+}
+.form p{font-size:20px}
+.slogan {
+    font-size: 18px;
+    line-height: 24px;
+    padding: 0;
+}
+
+header {
+    height: 190px;
+}
 }
 @media screen and (max-width:400px) {
-h1{float:left;margin-right:0}
+h1{float:left;margin-right:0;font-size: 19px;margin-bottom: 10px;}
+
+.slogan {
+    font-size: 14px;
+    margin: 0;
+    line-height: 18px;
+}
+
+header {
+    height: 158px;
+}
+
+header>.container {
+    padding: 5px;
+}
 }
 @media screen and (min-width:1700px) {
 .banner{margin-left:50px}
