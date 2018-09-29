@@ -10,6 +10,11 @@ h1{color:#fff;text-align:center;width:100%;margin:auto;margin-top:62px;font-size
 i.empty.fas.fa-star:before{color:transparent;border:1px solid;text-shadow:0 0 0 #e4e5e5,0 0 1px #505050}
 .install{height:100%;background:#f4f4f4;text-align:center;border-top-right-radius:9px;border-bottom-right-radius:9px}
 .item>div{float:left}
+
+.item>div:last-of-type {
+    height: 100%;
+    padding: 0;
+}
 .slogan{color:#fff;font-size:19px;text-align:center;margin-top:6px;padding-bottom:45px;letter-spacing:.8px;margin-bottom:36px}
 .tc{text-align:center;font-size:13px;padding-right:5px}
 .ticket{text-align:center;width:224px;margin-top:13px;float:left;padding-left:36px;margin-bottom:10px;margin-top:44px}
@@ -32,10 +37,11 @@ button.btn.primary-btn:hover{background:#03e003}
 .slogan p{margin-bottom:8px}
 .content>.container:last-of-type{padding-bottom:39px}
 @media screen and (max-width:1024px) {
-.item>div:last-of-type{width:100%;border-radius:0}
+
 .item{margin-left:-20px}
 }
 @media screen and (max-width:768px) {
+    .item>div:last-of-type{width:100%;border-radius:0}
    .form p{font-size:25px}
     .foot{
     font-size: 12px;
